@@ -25,6 +25,10 @@ namespace BookWeb.Controllers
         [HttpPost]
         public IActionResult Create(Category obj)
         {
+            if (obj.Name == obj.DisplayOrder.ToString())
+            {
+                ModelState.AddModelError("Name", "The Display Order cannot match Category Name.");
+            }
             if (ModelState.IsValid)
             {
                 _db.Categories.Add(obj);

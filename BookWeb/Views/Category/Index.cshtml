@@ -1,9 +1,6 @@
 ﻿@model List<BookWeb.Models.Category>
 
-@if(TempData["success"] != null)
-{
-    <h2>@TempData["success"]</h2>
-}
+<partial name="_Notification" />
 
 @{
     ViewData["Title"] = "Category";

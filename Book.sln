@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34601.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookWeb", "BookWeb\BookWeb.csproj", "{BE08A9DC-844C-48B9-869F-5AA0C89CD64A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookWeb", "BookWeb\BookWeb.csproj", "{BE08A9DC-844C-48B9-869F-5AA0C89CD64A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookWebRazor_Temp", "BookWebRazor_Temp\BookWebRazor_Temp.csproj", "{B5824E0C-AC66-41B9-8393-0E57964FC360}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BE08A9DC-844C-48B9-869F-5AA0C89CD64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE08A9DC-844C-48B9-869F-5AA0C89CD64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE08A9DC-844C-48B9-869F-5AA0C89CD64A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5824E0C-AC66-41B9-8393-0E57964FC360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5824E0C-AC66-41B9-8393-0E57964FC360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5824E0C-AC66-41B9-8393-0E57964FC360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5824E0C-AC66-41B9-8393-0E57964FC360}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
